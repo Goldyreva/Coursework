@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    background-color: #e7edf0;
+
+    font-family: 'Tenor Sans', sans-serif;  
+    
+    
+}
+
+li{
+    list-style-type: none;
+}
+main{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+} 
+ h2{
+    font-family: 'Cormorant', serif;
+    font-size: 3.1em;
+    margin-bottom: 15px ;
+    text-align: center;
+    color: #685b5b;
+}
+p{
+    color: #685b5b;
+    font-size: 1.55em;
+    line-height: 1.4em;
+    text-align: justify;
+}
+a{
+    text-decoration: none;
+    color: #685b5b;
+}
+/* Баннер */
+.banner{
+    width: 100%;
+    
+    display: inline-block;
+    background: url(images/banner.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+header{
+    background-image: url(images/header.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 1% 0 4% 0;
+    
+}
+ .nav{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    width: 100%;
+    
+    
+}
+.nav li{
+    color: #685b5b;
+    font-size: 2.45em;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+
+
+/* Иконки социальных сетей */
+.socials{
+    float: right;
+    margin: 0 5% 22% 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.fab{
+    font-size: calc(1em + 4vw);
+    margin-top: 40%;
+    color: #f0d2d2;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.795);
+    opacity: 80%;
+}
+.fab:hover{
+    opacity: 100%;
+}
+
+/* Блок "О парке" */
+
+.about{
+    /* margin-top: -7%; */
+    background-image: url(images/block1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    background-attachment: local;
+    background-position: bottom;
+    shape-outside: polygon(77% 0, 100% 20%, 50% 100%, 60% 15%);
+    -webkit-shape-outside: polygon(77% 0, 100% 20%, 50% 100%, 60% 15%);
+}
+.about .contaner{
+    display: flex;
+    justify-content: center;
+    margin: 0 5% 15%;
+}
+.about .contaner .image_contaner{
+    display: flex;
+    flex-direction: column;
+   
+}
+.about .contaner .p_image_contaner{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1%;
+}
+
+.about .contaner img{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.589);;
+}
+.about .contaner .img_1{
+    width: 95%;
+}
+.about .contaner .img_2{
+    margin-top: 10%;
+    width: 80%;
+}
+.about .contaner .img_3{
+    width: 40%;
+    margin-top: 2%;
+}
+
+/* Блок "Мероприятия" */
+
+.events{
+    background-image: url(images/block2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    background-attachment: local;
+    background-position: bottom;
+}
+.events .contaner{
+    display: flex;
+    margin: 0 5% 20%;
+}
+.events .contaner li{
+    font-size: 1.9em;
+    color: #685b5b;
+}
+.events .contaner ul{
+    flex: 1;
+    border-left: 5px solid #f0d2d2 ;
+    padding-left: 3%;
+    line-height: 1.5;
+    text-align: center;
+
+}
+.events .contaner ul h3{
+
+}
+.events .contaner p{
+    flex: 2;
+    padding-right: 3%;
+}
+
+/* Блок "Аттракционы" */
+
+.attractions{
+    background-image: url(images/block3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    background-attachment: local;
+    background-position: bottom;
+    
+}
+.hdd{
+    shape-outside: circle(50%);
+    height: 400px;
+    width: 400px;
+    float: right;
+}
+.attractions .contaner{
+    display: flex;
+    margin: 0 5% 20%;
+}
+.attractions .contaner .slider{
+    flex: 1;
+}
+.attractions .contaner p{
+    flex: 2;
+}
+.attractions .slider img{
+    width: 100%;
+}
